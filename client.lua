@@ -1,10 +1,10 @@
 local color = {r = 37, g = 175, b = 134, alpha = 255} -- Color of the text 
-local font = 0 -- Font of the text
+local font = 2 -- Font of the text
 local time = 7000 -- Duration of the display of the text : 1000ms = 1sec
 local nbrDisplaying = 0
 
-RegisterCommand('me', function(source, args)
-    local text = '* the person' -- edit here if you want to change the language : EN: the person / FR: la personne
+RegisterCommand('local', function(source, args)
+    local text = '* a pessoa' -- edit here if you want to change the language : EN: the person / FR: la personne
     for i = 1,#args do
         text = text .. ' ' .. args[i]
     end
