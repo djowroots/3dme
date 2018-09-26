@@ -1,6 +1,5 @@
-###
-## Atualizado para PT-BR, comando substituído por /local
-##
+Atualizado para PT-BR, comando substituído por /local
+
 # 3D /me
 The /me command but it draw it in 3D
 
